@@ -61,6 +61,19 @@
                     </execution>
                 </executions>
       </plugin>
+ <!-- Add the following to your pom.xml -->
+<build>
+  <plugins>
+    <plugin>
+      <groupId>org.sonarsource.scanner.maven</groupId>
+      <artifactId>sonar-maven-plugin</artifactId>
+      <version>3.9.0.2155</version>
+    </plugin>
+  </plugins>
+</build>
+
+
+      
     </plugins>
 
   </build>
